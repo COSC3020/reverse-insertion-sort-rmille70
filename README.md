@@ -37,3 +37,9 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+Answer: The average case would be big theta of n^2.
+This is because the growth rate of n^2 (the worst case) is much faster growing
+than n (the best case). So even though a partially sorted list would have a similar
+complexity to n, an almost backward sorted list would have a complexity more similar
+to n^2, which skews the average complexity up in a nonlinear fashion, thus n^2.
